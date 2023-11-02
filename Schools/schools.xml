@@ -1,0 +1,33 @@
+<!-- Well-formed document -->
+<!DOCTYPE schools SYSTEM "schools.dtd">
+
+<schools>
+  <school>
+    <name>IES El Rincón</name>
+    <address>Av. José Sánchez Peñate, s/n</address>
+    <students>
+      <student dni="52345653a">
+        <studentName>Ancor</studentName>
+        <studentSurname>García</studentSurname>
+      </student>
+      <student>
+        <studentName>Sergio</studentName>
+        <studentSurname>Cáceres</studentSurname>
+      </student>
+    </students>
+  </school>
+  <school>
+    <name>IES Siete Palmas</name>
+    <address>Av. Felo Monzón, 7</address>
+    <students>
+      <student>
+        <studentName>Pepillo</studentName>
+        <studentSurname>De los palotes</studentSurname>
+      </student>
+      <student>
+        <studentName>Juanillo</studentName>
+        <studentSurname>Alfonso</studentSurname>
+      </student>
+    </students>
+  </school>
+</schools>

@@ -1,0 +1,29 @@
+<!-- A well-formed document complies with the basic syntax of markup languages -->
+<!DOCTYPE tools SYSTEM "tools.dtd">
+
+<tools>
+  <tool>
+    <name>DINA3 Paper</name>
+    <price currency="euros">0,10</price>
+    <providers>
+      <provider>
+        <partner>Papelitos S.L</partner>
+        <country>England</country>
+      </provider>
+      <provider>
+        <partner>Colegios Guanarteme S.L</partner>
+        <country>France</country>
+      </provider>
+    </providers>
+  </tool>
+  <tool>
+    <name>DINA4 Paper</name>
+    <price>0,05</price>
+    <providers>
+      <provider>
+        <partner>Papelitos S.L</partner>
+        <country>England</country>
+      </provider>
+    </providers>
+  </tool>
+</tools>

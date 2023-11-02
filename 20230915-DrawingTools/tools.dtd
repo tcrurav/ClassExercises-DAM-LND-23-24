@@ -1,0 +1,9 @@
+<!ELEMENT tools (tool*)>
+<!ELEMENT tool (name,price,providers)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT providers (provider+)>
+<!ELEMENT provider (partner,country)>
+<!ELEMENT partner (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST price currency CDATA #IMPLIED>

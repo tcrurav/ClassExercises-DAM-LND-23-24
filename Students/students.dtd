@@ -1,0 +1,15 @@
+<!ELEMENT buildings (building+)>
+<!ELEMENT building (students?, teachers)>
+<!ELEMENT students (student*)>
+<!ELEMENT student (student_name, student_surname)>
+<!ELEMENT teachers (teacher*)>
+<!ELEMENT teacher (teacher_name, teacher_surname)>
+<!ELEMENT teacher_name (#PCDATA)>
+<!ELEMENT teacher_surname (#PCDATA)>
+<!ELEMENT student_name (#PCDATA)>
+<!ELEMENT student_surname (#PCDATA)>
+<!ATTLIST student dni CDATA #IMPLIED>
+
+<!-- <!ELEMENT building (students*,teachers*)> -->
+<!-- <!ELEMENT building (students,teachers)*> -->
+<!-- <!ELEMENT building (students,)> -->

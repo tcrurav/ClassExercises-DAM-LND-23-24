@@ -1,0 +1,25 @@
+<series>
+  <serie>
+    <name>Los 7 pecados capitales</name>
+    <chapter_number>9</chapter_number>
+    <rating>5</rating>
+  </serie>
+  <serie>
+    <name>Ana Rosa se va de pesca</name>
+    <chapter_number>90</chapter_number>
+    <rating>2</rating>
+  </serie>
+  <serie>
+    <name>Star trek</name>
+    <chapter_number>87</chapter_number>
+    <rating>3</rating>
+  </serie>
+</series>
+
+<!-- 
+  <tag attribute="value">
+    content
+  </tag>
+
+  well-formed document
+-->

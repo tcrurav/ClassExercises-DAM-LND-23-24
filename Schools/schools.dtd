@@ -1,0 +1,9 @@
+<!ELEMENT schools (school*)>
+<!ELEMENT school (name,address,students)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT students (student*)>
+<!ELEMENT student (studentName,studentSurname)>
+<!ELEMENT studentName (#PCDATA)>
+<!ELEMENT studentSurname (#PCDATA)>
+<!ATTLIST student dni CDATA #IMPLIED>

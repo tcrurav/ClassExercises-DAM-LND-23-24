@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildings SYSTEM "students.dtd">
+<buildings>
+  <building>
+    <students>
+      <student dni="6038927593A">
+        <student_name>isaac</student_name>
+        <student_surname>Ramos</student_surname>
+      </student>
+      <student>
+        <student_name>Alejandro</student_name>
+        <student_surname>Yanez</student_surname>
+      </student>
+      <student>
+        <student_name>isaac</student_name>
+        <student_surname>Ramos</student_surname>
+      </student>
+    </students>
+    <teachers>
+      <teacher>
+        <teacher_name>Tiburcio</teacher_name>
+        <teacher_surname>Cruz</teacher_surname>
+      </teacher>
+    </teachers>
+  </building>
+  <building>
+    <students>
+      <student>
+        <student_name>isaac</student_name>
+        <student_surname>Ramos</student_surname>
+      </student>
+      <student>
+        <student_name>Alejandro</student_name>
+        <student_surname>Yanez</student_surname>
+      </student>
+      <student>
+        <student_name>isaac</student_name>
+        <student_surname>Ramos</student_surname>
+      </student>
+    </students>
+    <teachers>
+      <teacher>
+        <teacher_name>Tiburcio</teacher_name>
+        <teacher_surname>Cruz</teacher_surname>
+      </teacher>
+    </teachers>
+  </building>
+</buildings>
